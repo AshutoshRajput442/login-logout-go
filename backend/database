@@ -1,0 +1,14 @@
+CREATE DATABASE studentdb;
+USE studentdb;
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+select * from students;
+
+
+-- Insert a sample user (password: "password123")
+INSERT INTO students (email, password) VALUES 
+("ashu@gmail.com", "1111"); 
+-- (Hashed password: bcrypt hashed)

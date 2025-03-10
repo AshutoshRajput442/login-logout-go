@@ -1,0 +1,53 @@
+/* Dashboard Container */
+.dashboard-container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Dashboard Title */
+.dashboard-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Course List */
+.course-list {
+    list-style: none;
+    padding: 0;
+}
+
+.course-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.course-item:hover {
+    transform: translateY(-3px);
+}
+
+/* Logout Button */
+.logout-btn {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.logout-btn:hover {
+    background: #b02a37;
+}
